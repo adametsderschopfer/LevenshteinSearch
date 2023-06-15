@@ -97,5 +97,6 @@ const entities = [
 const searchEngine = new SearchEngine(entities, {
   paths: ["test"]
 });
-
-console.log(searchEngine.find("lksdfoj rgvo"));
+// Todo: add percentage match of words with query
+// Todo: add optiomizations
+console.log(searchEngine.find("mking"));
